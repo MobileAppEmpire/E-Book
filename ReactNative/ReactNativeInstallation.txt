@@ -1,0 +1,10 @@
+React Native Installation Steps:
+
+1. Install Node.js
+2. open Command prompt(CMD) on your computer.
+3. npm install -g react-native-cli  [Globally Installation, use npm to install the ReactNative Command Line(CLI)]
+4. react-native init [your_pj_name] [Create React Native Project]
+
+5. Open Android Virtual Device(AVD)/Emulator
+
+6. [Project_Path] react-native run-android

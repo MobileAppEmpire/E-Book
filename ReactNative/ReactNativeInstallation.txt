@@ -6,5 +6,7 @@ React Native Installation Steps:
 4. react-native init [your_pj_name] [Create React Native Project]
 
 5. Open Android Virtual Device(AVD)/Emulator
+   [Create new AVD or Use exist AVD]
+    ...C:\Users\UserName\AppData\Local\Android\sdk\AVD Manager.exe
 
 6. [Project_Path] react-native run-android

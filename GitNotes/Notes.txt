@@ -6,6 +6,7 @@ Check the number of branch
 
 Checkout ( Change Branch)
  - Physical files get modified, added or deleted.
+- git checkout <branch_name>
 
 Create Branch
 - git branch <barnch_name>
@@ -13,8 +14,19 @@ Create Branch
 Create and Checkout 
  - git checkout -b <branch_name> 
 
-
-
-Delete branch 
+Delete branch (Local)
  - git branch -d <branch_name>
 
+Delete brach(Remote)
+-git push <remote-name> -d <branch-name>
+
+Check Current Status
+- git status
+
+Push Src Code to remote
+- git push <remote-name> <branch-name>
+
+Merging an upstream repository into your fork
+-git checkout master
+-git pull <https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git BRANCH_NAME>
+-git push origin master

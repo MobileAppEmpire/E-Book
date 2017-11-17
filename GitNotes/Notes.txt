@@ -1,0 +1,20 @@
+Clone 
+ _ git clone https://github.com/naylynn/git_tutorial.git
+
+Check the number of branch
+ _ git branch
+
+Checkout ( Change Branch)
+ - Physical files get modified, added or deleted.
+
+Create Branch
+- git branch <barnch_name>
+
+Create and Checkout 
+ - git checkout -b <branch_name> 
+
+
+
+Delete branch 
+ - git branch -d <branch_name>
+

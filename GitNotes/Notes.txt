@@ -30,3 +30,10 @@ Merging an upstream repository into your fork
 -git checkout master
 -git pull <https://github.com/ORIGINAL_OWNER/ORIGINAL_REPOSITORY.git BRANCH_NAME>
 -git push origin master
+
+Clear your changes and reverts all changes in your working directory to the last commit
+-git reset --hard
+-git reset --hard fetch head( reset and fetch from remote) + git clean -df ( removing new added file(s)
+
+Show last commit
+-git log -1
